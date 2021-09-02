@@ -1,2 +1,2 @@
 # scrape-automation
-[![toba_wild](https://github.com/toba101/scrape-automation/actions/workflows/r.yml/badge.svg)](https://github.com/toba101/scrape-automation/actions/workflows/r.yml)
+[![nifty50scrape](https://github.com/amrrs/scrape-automation/actions/workflows/main.yml/badge.svg)](https://github.com/amrrs/scrape-automation/actions/workflows/main.yml)
