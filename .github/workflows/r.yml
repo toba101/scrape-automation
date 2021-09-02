@@ -1,10 +1,11 @@
 # Hourly scraping
-name: toba_wild
+name: nifty50scrape
 
 # Controls when the action will run.
 on:
-  push:
-    branches: main
+  schedule:
+    - cron:  '0 13 * * *'
+
 
 jobs: 
   autoscrape:
@@ -24,7 +25,7 @@ jobs:
         R -e 'install.packages("rvest")'
     # Run R script
     - name: Scrape
-      run: Rscript toba_wild_scraping.R
+      run: Rscript nifty50_scraping.R
       
  # Add new files in data folder, commit along with other modified files, push
     - name: Commit files
